@@ -1,0 +1,335 @@
+
+body  {
+  font-family: 'Archivo Narrow', sans-serif;
+  background-color: rgb(246, 246, 246);
+  max-width: 985px;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  color: rgb(53, 116, 179);
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 767px) {
+  body  {
+    font-size: 10px;
+  }
+}
+
+h1, h2  {
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+
+li  {
+  font-size: 1.6rem;
+}
+
+a {
+  color: rgb(53, 116, 179);
+}
+
+.logo_blue  {
+  background-color: #00509E;
+}
+
+.accent_red {
+  background-color: #FA002E;
+}
+
+.accent_yellow  {
+  background-color: #F9C02D;
+}
+
+.site_blue  {
+  background-color: #0B67A3;
+}
+
+
+.white  {
+  background-color: white;
+}
+
+.text_white {
+  color: white;
+}
+
+.padding  {
+  padding: 5px;
+}
+
+.padding_top  {
+  padding-top: 11px;
+}
+
+.padding_bottom {
+  padding-bottom: 3px;
+}
+
+.border_radius  {
+  border-radius: 3px;
+}
+
+.border_radius_top  {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.border_radius_bottom_left {
+  border-bottom-left-radius: 3px;
+}
+
+.border_radius_bottom_right  {
+  border-bottom-right-radius: 3px;
+}
+
+.icon_margin_right  {
+  margin-right: 4px;
+}
+
+
+.section_margin {
+  margin-bottom: 3rem;
+}
+
+.section_padding  {
+  padding: 1.5rem;
+}
+
+ul  {
+  list-style: initial;
+}
+
+.promo  h4  {
+  padding: 5px 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .mobile_hide  {
+    display: none;
+  }
+}
+
+/* contact section */
+
+.contact_button:hover {
+  background-color: #0B67A3;
+  transition-delay: 0.3s.
+  transition-timing-function: ease-in-out;
+}
+
+.contact_button a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .cta  .col  {
+    min-width: 300px;
+  }
+  .cta h4 {
+    padding: 20px;
+  }
+}
+
+
+
+/* header */
+
+header  {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+header  span {
+  font-size: 1.2rem;
+}
+
+header  img {
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  header  {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header .mobile  {
+    align-items: center;
+    padding-bottom: 20px;
+  }
+}
+
+
+/* hero image */
+
+
+.iandh2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hero_right .content  {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hero_left  i, .hero_left h2 {
+  color: white;
+  display: inline;
+}
+
+.hero_right i,  .hero_right h2 {
+  display: inline;
+}
+
+.hero_left  i  {
+  margin-right: 10px;
+}
+
+.hero_left, .hero_right  {
+  padding: 25px;
+}
+
+.hero_right {
+
+  color: #0B67A3;
+}
+
+.hero_right h2  {
+  color: #0B67A3;
+  line-height: 3rem;
+}
+
+.hero_right img {
+  max-height: 115px;
+  transform: rotate(-10deg);
+}
+
+/* what we do section */
+
+.section_what .col {
+  max-width: 280px;
+  border-radius: 2px;
+  border: 2px solid #DDDDDD;
+  box-shadow: 2px 2px 2px #dddddd;
+  background-image: linear-gradient(to bottom right, white 75%, #DDDDDD);
+}
+
+.section_what i, .section_what h4, .section_what h5 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .section_what .col  {
+    min-width: 300px;
+    margin-top: 20px;
+  }
+}
+
+/* proof section */
+
+.section_proof img  {
+  max-width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 275px;
+}
+
+@media only screen and (max-width: 767px) {
+  .section_proof  img {
+    min-width: 300px;
+    margin-bottom: 20px;
+  }
+  .section_proof  h5  {
+    display: none;
+  }
+}
+
+/* section package */
+
+.sec_package  h2  {
+  color: rgb(53, 116, 179);
+
+}
+
+.sec_package  h2  {
+  padding-left: 25px;
+}
+
+.sec_package  p {
+  font-size: 1.6rem;
+  display: inline;
+  margin-left: 15px;
+}
+
+.sec_package  {
+  border-radius: 2px;
+  border: 2px solid #DDDDDD;
+  box-shadow: 2px 2px 2px #dddddd;
+  background-image: linear-gradient(to bottom right, white 90%, #DDDDDD);
+
+}
+
+.sec_package  h2  {
+  padding-left: 25px;
+
+}
+
+ul  {
+  padding-left: 30px;
+}
+
+.sec_package  i {
+  padding-bottom: 20px;
+
+}
+
+
+.sec_package_main {
+  padding: 20px;
+}
+
+.package_right  {
+  background-image: linear-gradient(to bottom right, white 75%, #DDDDDD);
+}
+
+@media only screen and (max-width: 767px) {
+  .sec_package  .col  {
+    min-width: 300px;
+  }
+}
+
+
+footer  {
+  height: 140px;
+  background-color: lightgrey;
+  font-size: 1.2rem;
+}
+
+footer p  {
+  font-size: 0.9rem;
+}
+
+/* contact page */
+
+
+
+
+
+/*
+.test_blend {
+  background-image: url(../../resources/images/maintain.jpg);
+  background-size: cover;
+  background-color: red;
+  background-blend-mode: lighten;
+  height: 366px;
+}
+.dean_image {
+  background-image: url(../../resources/images/repair-man.jpg);
+  background-size: cover;
+  height: 366px;
+} */
